@@ -7,8 +7,8 @@
     "root": "exampleSite/content/english"
   },
   "themeConfig": [
-    "exampleSite/config",
-    "exampleSite/data"
+    "exampleSite/data",
+    "exampleSite/config/_default"
   ],
   "arrangement": {}
 }
