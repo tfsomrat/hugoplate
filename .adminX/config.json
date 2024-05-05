@@ -1,0 +1,14 @@
+{
+  "media": {
+    "root": "exampleSite/assets/images",
+    "public": "exampleSite/assets"
+  },
+  "content": {
+    "root": "exampleSite/content/english"
+  },
+  "themeConfig": [
+    "exampleSite/config",
+    "exampleSite/data"
+  ],
+  "arrangement": {}
+}
