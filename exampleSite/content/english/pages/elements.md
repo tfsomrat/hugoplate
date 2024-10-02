@@ -6,5 +6,11 @@ draft: false
 ---
 1. My name is khan
    1. and I am
-      * not a 
+      * not a
       * terrorist
+
+```javascript
+console.log(hello world)
+
+
+```
