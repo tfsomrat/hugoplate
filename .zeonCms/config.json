@@ -1,0 +1,14 @@
+{
+  "media": {
+    "root": "exampleSite/assets/images",
+    "public": "exampleSite/assets"
+  },
+  "content": {
+    "root": "exampleSite/content"
+  },
+  "themeConfig": [
+    "exampleSite/config/_default",
+    "exampleSite/hugo.toml"
+  ],
+  "arrangement": {}
+}
