@@ -7,8 +7,7 @@
     "root": "exampleSite/content"
   },
   "themeConfig": [
-    "exampleSite/config/_default",
-    "exampleSite/hugo.toml"
+    "exampleSite/config/_default"
   ],
   "arrangement": {}
 }
