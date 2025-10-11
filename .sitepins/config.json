@@ -10,7 +10,8 @@
     "root": "layouts"
   },
   "themeConfig": [
-    "exampleSite/hugo.toml"
+    "exampleSite/hugo.toml",
+    "exampleSite/config/_default"
   ],
   "arrangement": [],
   "showCommitModal": false
