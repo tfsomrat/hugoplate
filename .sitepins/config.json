@@ -7,7 +7,7 @@
     "root": "content"
   },
   "code": {
-    "root": "themes/hugoplate"
+    "root": "themes/hugoplate/layouts"
   },
   "themeConfig": [
     "hugo.toml",
