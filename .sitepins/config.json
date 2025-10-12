@@ -7,9 +7,12 @@
     "root": "content"
   },
   "code": {
-    "root": "layouts"
+    "root": "themes/hugoplate/layouts"
   },
-  "themeConfig": ["hugo.toml", "config/_default"],
+  "themeConfig": [
+    "hugo.toml",
+    "config/_default"
+  ],
   "arrangement": [],
   "showCommitModal": false
 }
