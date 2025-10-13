@@ -4,7 +4,7 @@
     "public": "assets"
   },
   "content": {
-    "root": "content"
+    "root": "content/english"
   },
   "code": {
     "root": "themes/hugoplate/layouts"
