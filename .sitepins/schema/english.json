@@ -1,0 +1,132 @@
+{
+  "file": "content/english/_index.md",
+  "name": "english",
+  "fileType": "md",
+  "fmType": "yaml",
+  "template": [
+    {
+      "name": "banner",
+      "label": "The Ultimate Starter Template You Need To Start Your Hugo Project",
+      "type": "object",
+      "defaultValue": "",
+      "fields": [
+        {
+          "name": "title",
+          "label": "Title",
+          "type": "string",
+          "value": "",
+          "defaultValue": ""
+        },
+        {
+          "name": "content",
+          "label": "Content",
+          "type": "string",
+          "value": "",
+          "defaultValue": ""
+        },
+        {
+          "name": "image",
+          "label": "Image",
+          "type": "media",
+          "value": "",
+          "defaultValue": ""
+        },
+        {
+          "name": "button",
+          "label": "Get Started For Free",
+          "type": "object",
+          "defaultValue": "",
+          "fields": [
+            {
+              "name": "enable",
+              "label": "Enable",
+              "type": "boolean",
+              "value": false,
+              "defaultValue": ""
+            },
+            {
+              "name": "label",
+              "label": "Label",
+              "type": "string",
+              "value": "",
+              "defaultValue": ""
+            },
+            {
+              "name": "link",
+              "label": "Link",
+              "type": "string",
+              "value": "",
+              "defaultValue": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "features",
+      "label": "Features",
+      "type": "Array",
+      "value": [],
+      "defaultValue": "",
+      "fields": [
+        {
+          "name": "title",
+          "label": "Title",
+          "type": "string",
+          "value": "",
+          "defaultValue": ""
+        },
+        {
+          "name": "image",
+          "label": "Image",
+          "type": "media",
+          "value": "",
+          "defaultValue": ""
+        },
+        {
+          "name": "content",
+          "label": "Content",
+          "type": "string",
+          "value": "",
+          "defaultValue": ""
+        },
+        {
+          "name": "bulletpoints",
+          "label": "Bulletpoints",
+          "type": "Array",
+          "value": [],
+          "defaultValue": ""
+        },
+        {
+          "name": "button",
+          "label": "Button",
+          "type": "object",
+          "defaultValue": "",
+          "fields": [
+            {
+              "name": "enable",
+              "label": "Enable",
+              "type": "boolean",
+              "value": false,
+              "defaultValue": ""
+            },
+            {
+              "name": "label",
+              "label": "Label",
+              "type": "string",
+              "value": "",
+              "defaultValue": ""
+            },
+            {
+              "name": "link",
+              "label": "Link",
+              "type": "string",
+              "value": "",
+              "defaultValue": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
