@@ -68,6 +68,35 @@
       "type": "boolean",
       "value": false,
       "defaultValue": ""
+    },
+    {
+      "name": "Test Obj",
+      "label": "Test Obj",
+      "type": "object",
+      "value": "",
+      "description": "",
+      "isRequired": false,
+      "defaultValue": "",
+      "fields": [
+        {
+          "name": "Test 1",
+          "label": "test_1",
+          "type": "string",
+          "value": "",
+          "description": "",
+          "isRequired": false,
+          "defaultValue": ""
+        },
+        {
+          "name": "test_2",
+          "label": "test_2",
+          "type": "string",
+          "value": "",
+          "description": "",
+          "isRequired": false,
+          "defaultValue": ""
+        }
+      ]
     }
   ]
 }
