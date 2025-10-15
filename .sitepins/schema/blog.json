@@ -67,6 +67,16 @@
       "type": "boolean",
       "value": false,
       "defaultValue": ""
+    },
+    {
+      "name": "test",
+      "label": "test",
+      "type": "Array",
+      "value": [],
+      "description": "",
+      "isRequired": false,
+      "defaultValue": "",
+      "subType": "object"
     }
   ]
 }
