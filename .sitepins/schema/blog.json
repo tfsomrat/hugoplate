@@ -77,6 +77,35 @@
       "isRequired": false,
       "defaultValue": "",
       "subType": "object"
+    },
+    {
+      "name": "test_obj",
+      "label": "Test-obj",
+      "type": "object",
+      "value": "",
+      "description": "",
+      "isRequired": false,
+      "defaultValue": "",
+      "fields": [
+        {
+          "name": "inner1",
+          "label": "inner1",
+          "type": "string",
+          "value": "",
+          "description": "",
+          "isRequired": false,
+          "defaultValue": ""
+        },
+        {
+          "name": "inner2",
+          "label": "inner2",
+          "type": "string",
+          "value": "",
+          "description": "",
+          "isRequired": false,
+          "defaultValue": ""
+        }
+      ]
     }
   ]
 }
