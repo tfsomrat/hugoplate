@@ -11,7 +11,8 @@
   },
   "themeConfig": [
     "hugo.toml",
-    "config/_default"
+    "config/_default",
+    "data"
   ],
   "arrangement": [],
   "showCommitModal": false
