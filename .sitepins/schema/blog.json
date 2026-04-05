@@ -64,7 +64,8 @@
       "isDropdown": true,
       "referenceType": "folder",
       "referencePath": "exampleSite/content/english/authors",
-      "referenceExclude": "_index"
+      "referenceExclude": "_index.md",
+      "referenceField": "title"
     },
     {
       "name": "tags",
