@@ -52,11 +52,7 @@
       "value": [],
       "isIgnored": false,
       "defaultValue": "",
-      "subType": "string",
-      "isDropdown": true,
-      "referenceType": "folder",
-      "referencePath": "exampleSite/content/english/authors",
-      "referenceField": "___slug___"
+      "subType": "string"
     },
     {
       "name": "author",
