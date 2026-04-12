@@ -52,12 +52,7 @@
       "value": [],
       "isIgnored": false,
       "defaultValue": "",
-      "subType": "string",
-      "isDropdown": true,
-      "referenceType": "folder",
-      "referencePath": "exampleSite/content/english/authors",
-      "referenceExclude": "_index.md",
-      "referenceField": "title"
+      "subType": "string"
     },
     {
       "name": "author",
@@ -69,8 +64,7 @@
       "isDropdown": true,
       "referenceType": "folder",
       "referencePath": "exampleSite/content/english/authors",
-      "referenceExclude": "_index.md",
-      "referenceField": "title"
+      "referenceExclude": "_index.md"
     },
     {
       "name": "tags",
