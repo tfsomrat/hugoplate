@@ -7,7 +7,6 @@ description: "This is meta description"
 # save as draft
 draft: false
 ---
-
 {{< toc >}}
 
 Here is an example of headings. You can use this heading by the following markdown rules. For example: use `#` for heading 1 and use `######` for heading 6.
@@ -28,11 +27,11 @@ Here is an example of headings. You can use this heading by the following markdo
 
 ### Emphasis
 
-The emphasis, aka italics, with _asterisks_ or _underscores_.
+The emphasis, aka italics, with *asterisks* or *underscores*.
 
 Strong emphasis, aka bold, with **asterisks** or **underscores**.
 
-The combined emphasis with **asterisks and _underscores_**.
+The combined emphasis with **asterisks and *underscores***.
 
 Strike through uses two tildes. ~~Scratch this.~~
 
@@ -46,14 +45,14 @@ Strike through uses two tildes. ~~Scratch this.~~
 
 ### Link
 
-[I'm an inline-style link](https://www.google.com)
+​[I'm an inline-style link](https://www.google.com)​
 
-[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
+​[I'm an inline-style link with title](https://www.google.com "Google's Homepage")​
 
-[I'm a relative reference to a repository file](../blob/master/LICENSE)
+​[I'm a relative reference to a repository file](../blob/master/LICENSE)​
 
-URLs and URLs in angle brackets will automatically get turned into links.
-<http://www.example.com> or <http://www.example.com> and sometimes
+URLs and URLs in angle brackets will automatically get turned into links.\
+[http://www.example.com](http://www.example.com) or [http://www.example.com](http://www.example.com) and sometimes\
 example.com (but not on Github, for example).
 
 Some text to show that the reference links can follow later.
@@ -114,31 +113,25 @@ This is a simple warning.
 
 {{< tabs >}}
 {{< tab "Tab 1" >}}
-
 #### Hey There, I am a tab
 
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-
 {{< /tab >}}
 
 {{< tab "Tab 2" >}}
-
 #### I wanna talk about the assassination attempt
 
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-
 {{< /tab >}}
 
 {{< tab "Tab 3" >}}
-
 #### We know you’re dealing in stolen ore
 
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
-
 {{< /tab >}}
 {{< /tabs >}}
 
@@ -147,27 +140,21 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 ### Accordions
 
 {{< accordion "Why should you need to do this?" >}}
-
 - Lorem ipsum dolor sit amet consectetur adipisicing elit.
 - Lorem ipsum dolor sit amet consectetur adipisicing elit.
 - Lorem ipsum dolor sit amet consectetur
-
 {{< /accordion >}}
 
 {{< accordion "How can I adjust Horizontal centering" >}}
-
 - Lorem ipsum dolor sit amet consectetur adipisicing elit.
 - Lorem ipsum dolor sit amet consectetur adipisicing elit.
 - Lorem ipsum dolor sit amet consectetur
-
 {{< /accordion >}}
 
 {{< accordion "Should you use Negative margin?" >}}
-
 - Lorem ipsum dolor sit amet consectetur adipisicing elit.
 - Lorem ipsum dolor sit amet consectetur adipisicing elit.
 - Lorem ipsum dolor sit amet consectetur
-
 {{< /accordion >}}
 
 ---
@@ -186,7 +173,7 @@ s = "Python syntax highlighting"
 print s
 ```
 
-```c  { linenos=true }
+```c
 #include <stdio.h>
 
 int main(void)
@@ -215,11 +202,11 @@ flowchart TD
 
 ### Tables
 
-| Tables        |      Are      |  Cool |
-| ------------- | :-----------: | ----: |
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      |   centered    |   $12 |
-| zebra stripes |   are neat    |    $1 |
+| Tables | Are | Cool |
+| - | - | - |
+| col 3 is | right-aligned | $1600 |
+| col 2 is | centered | $12 |
+| zebra stripes | are neat | $1 |
 
 ---
 
@@ -250,3 +237,5 @@ flowchart TD
 ### Custom video
 
 {{< video src="https://www.w3schools.com/html/mov_bbb.mp4" width="100%" height="auto" autoplay="false" loop="false" muted="false" controls="true" class="rounded-lg" >}}
+
+​
