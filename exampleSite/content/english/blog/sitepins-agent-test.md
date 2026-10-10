@@ -1,6 +1,6 @@
 ---
-title: Sitepins agent test
+title: Sitepins agent test (edited)
 draft: true
 ---
 
-Written by an AI agent through Sitepins MCP.
+Edited by an AI agent.
