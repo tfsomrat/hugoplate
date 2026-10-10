@@ -1,0 +1,14 @@
+{
+  "name": "Agent test",
+  "fileType": "md",
+  "fmType": "yaml",
+  "template": [
+    {
+      "name": "title",
+      "label": "Title",
+      "type": "string",
+      "value": "",
+      "isRequired": true
+    }
+  ]
+}
